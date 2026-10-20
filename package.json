@@ -1,0 +1,30 @@
+{
+  "name": "claude-code-skill-security-check",
+  "version": "3.1.1",
+  "description": "Security audit plugin for Claude Code — scans skills, hooks, and MCP configs for prompt injection, data exfiltration, supply chain attacks, and 37 threat patterns. v3.1.1 bundles Agent Threat Rules (ATR) v2.1.2 as a reference resource.",
+  "bin": {
+    "claude-code-skill-security-check": "install.js"
+  },
+  "keywords": [
+    "claude-code",
+    "security",
+    "skills",
+    "audit",
+    "mcp",
+    "hooks",
+    "semgrep"
+  ],
+  "author": "aliks",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliksir/claude-code-skill-security-check.git"
+  },
+  "scripts": {
+    "test": "node --test tests/sarif/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

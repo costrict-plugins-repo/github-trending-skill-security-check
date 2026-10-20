@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+Thumbs.db
+tmp/
+*.log
+dist/
+build/
+*.egg-info/
+
+# 一時退避領域 (CLAUDE.md ルール: file_deletion → move to _deleted/)
+_deleted/
+.test-tmp/
+
+.pii-clearance.json
